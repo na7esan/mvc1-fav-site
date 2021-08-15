@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class FavoriteSiteController extends Controller
 {
     /**
-     * お気に入りサイトの一覧表示ページ
+     * お気に入りサイトの一覧画面表示処理
      *
      *
      */
