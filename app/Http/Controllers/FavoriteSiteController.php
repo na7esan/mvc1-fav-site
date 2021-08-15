@@ -11,6 +11,6 @@ class FavoriteSiteController extends Controller
      */
     public function create()
     {
-        return 'お気に入りサイトの登録画面';
+        return view('favorite-sites.create');
     }
 }
