@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class FavoriteSite extends Model
 {
     use HasFactory;
+
+    /**
+     * 複数代入可能な属性
+     *
+     * @var array
+     */
+    protected $fillable = ['name', 'url'];
 }

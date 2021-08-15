@@ -9,7 +9,7 @@
 <body>
     <h1>お気に入りサイト登録ページ</h1>
 
-    <form action="#" method="post">
+    <form action="{{ url('favorite-sites') }}" method="POST">
         @csrf
 
         <label>サイト名
