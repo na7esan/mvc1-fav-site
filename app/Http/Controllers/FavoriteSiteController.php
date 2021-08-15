@@ -13,4 +13,12 @@ class FavoriteSiteController extends Controller
     {
         return view('favorite-sites.create');
     }
+
+    /**
+     * お気に入りサイトの登録処理
+     */
+    public function store()
+    {
+        return 'ストアです。ここでお気に入りサイトの登録処理を行う';
+    }
 }
