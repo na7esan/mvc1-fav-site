@@ -1,1 +1,3 @@
-一覧表示のページです
+@php
+    dd($favoriteSites);
+@endphp

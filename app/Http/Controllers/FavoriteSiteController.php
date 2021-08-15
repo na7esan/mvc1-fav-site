@@ -14,7 +14,11 @@ class FavoriteSiteController extends Controller
      */
     public function index()
     {
-        return '一覧表示ページです';
+
+        $favoriteSites=FavoriteSite::all();
+        return view('favorite-sites.index',[
+            'favoriteSites'=>$favoriteSites
+        ]);
     }
 
     /**
