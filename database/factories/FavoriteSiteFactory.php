@@ -22,7 +22,8 @@ class FavoriteSiteFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' =>$this->faker->realText(10),
+            'url' =>$this->faker->url,
         ];
     }
 }

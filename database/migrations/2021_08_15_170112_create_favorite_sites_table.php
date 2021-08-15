@@ -15,8 +15,8 @@ class CreateFavoriteSitesTable extends Migration
     {
         Schema::create('favorite_sites', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->string('url');
-            $table->string('title');
             $table->timestamps();
         });
     }
